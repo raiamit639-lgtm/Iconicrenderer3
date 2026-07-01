@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "iconicrenderer",
+  "version": "1.0.0",
+  "name": "Iconic Renderer",
+  "description": "Custom rendering + Sodium-like UI",
+  "authors": ["Me"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.iconicrenderer.Iconicrenderer"
+    ],
+    "client": [
+      "com.iconicrenderer.client.IconicClient"
+    ]
+  },
+  "depends": {
+    "minecraft": "1.21.8",
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
